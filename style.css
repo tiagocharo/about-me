@@ -1,0 +1,134 @@
+@charset "UTF-8";
+
+body {
+	background-image: url(images/black-wallpaper-novo.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+.topo h1{
+	color: #4682B4;
+	text-align: center;
+	font-size: 40px;
+	font-family: sans-serif;
+	font-weight: bold;
+	float: left;
+	padding-top: 50px;
+	margin: 0px;
+}
+.topo span {
+	color: red;
+	font-size: 50px;
+}
+.topo img {
+	margin: 0px;
+	width: 150px;
+	height: 200px;
+	border-radius: 50px;
+	margin-top: 20px;
+
+}
+.sobre {
+	margin-top: 10px;
+}
+.sobre h2 {
+	font-size: 45px;
+	font-family: sans-serif;
+	text-align: center;
+	color: #000;
+	color:red;
+	font-weight: 700;
+}
+.sobre h2:hover{
+	text-shadow: 2px 2px 2px #fff;
+}
+.sobre p {
+	text-align: center;
+	margin-top: 10px;
+	color: #4682B4;
+	font-size: 20px;
+	font-weight: bold;
+}
+.icones img {
+	height: 70px;
+	width: 70px;
+	margin-top: 100px;
+}
+.branco {
+	background-color: #fff;
+	height: 250px;
+}
+.habilidades h2{
+	color: red;
+	text-align: center;
+	font-size: 40px;
+	font-weight: 700;
+}
+.habilidades h2:hover {
+	text-shadow: 2px 2px 2px #fff;
+}
+.habilidades ul  {
+	list-style: none;
+	text-align: center;
+	color: #4682B4;
+	font-size: 25px;
+}
+.habilidades li:hover {
+	color: #fff;
+}
+footer {
+	height: 200px;
+	margin-top: 20px;
+	text-align: center;
+	list-style-type: none;
+	color: #4682B4;
+}
+footer h3{
+	color: red;
+	font-weight: 700;
+	font-size: 30px;
+}
+footer h3:hover {
+	text-shadow: 2px 2px 2px #fff;
+}
+footer  img {
+	height: 50px;
+	width: 50px;
+	padding: 5px;
+}
+.tiago img{
+	height: 50px;
+	width: 50px;
+	margin-top: 60px;
+	text-indent: 30px;
+}
+
+/*smartphone*/
+@media only screen and (max-width: 480px) {
+	
+	.topo h1{
+		font-size: 20px;
+	}
+	.topo span {
+		font-size: 20px;
+	}
+
+}
+
+@media only screen and (max-width: 1199px) {
+	.topo h1 {
+		width: 100%;
+		display: block;
+		margin-bottom: 15px;
+		
+	}
+	.topo span {
+		font-size: 20px;
+	}
+	
+	.image-avatar {
+		width: 180px;
+		margin: 10px auto;
+	}
+}
+
