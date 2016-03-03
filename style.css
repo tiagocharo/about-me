@@ -1,13 +1,13 @@
 @charset "UTF-8";
 
 body {
-	background-image: url(images/black-wallpaper-novo.jpg);
+	background-image: url(images/codes.jpg);
 	background-size: cover;
 	background-position: center;
 }
 
 .topo h1{
-	color: #4682B4;
+	color: #fff;
 	text-align: center;
 	font-size: 40px;
 	font-family: sans-serif;
@@ -15,7 +15,30 @@ body {
 	float: left;
 	padding-top: 50px;
 	margin: 0px;
+	position: relative;
+	animation: pula 2s infinite;
+	-webkit-animation: pula 2s infinite;
+	-webkit-animation-direction: alternate;
+	animation-direction: alternate;
+	animation-time-function: ease-out;
 }
+@-webkit-keyframes pula {
+	from {
+		top: 0;
+	}
+	to {
+		top: 1em;
+	}
+}
+@keyframes pula {
+	from {
+		top: 0;
+	}
+	to {
+		top: 1em;
+	}
+}
+
 .topo span {
 	color: red;
 	font-size: 50px;
@@ -24,7 +47,7 @@ body {
 	margin: 0px;
 	width: 150px;
 	height: 200px;
-	border-radius: 50px;
+	border-radius: 30px;
 	margin-top: 20px;
 
 }
@@ -39,13 +62,11 @@ body {
 	color:red;
 	font-weight: 700;
 }
-.sobre h2:hover{
-	text-shadow: 2px 2px 2px #fff;
-}
+
 .sobre p {
 	text-align: center;
 	margin-top: 10px;
-	color: #4682B4;
+	color: #fff;
 	font-size: 20px;
 	font-weight: bold;
 }
@@ -55,7 +76,7 @@ body {
 	margin-top: 100px;
 }
 .branco {
-	background-color: #fff;
+	background-color: gray;
 	height: 250px;
 }
 .habilidades h2{
@@ -64,37 +85,38 @@ body {
 	font-size: 40px;
 	font-weight: 700;
 }
-.habilidades h2:hover {
-	text-shadow: 2px 2px 2px #fff;
-}
+
 .habilidades ul  {
 	list-style: none;
 	text-align: center;
-	color: #4682B4;
-	font-size: 25px;
+	color: #fff;
+	font-size: 35px;
+	font-family: helvetica;
+	font-weight: bold;
 }
 .habilidades li:hover {
-	color: #fff;
+	color: gray;
 }
 footer {
 	height: 200px;
 	margin-top: 20px;
 	text-align: center;
 	list-style-type: none;
-	color: #4682B4;
+	color: #fff;
 }
 footer h3{
 	color: red;
 	font-weight: 700;
 	font-size: 30px;
 }
-footer h3:hover {
-	text-shadow: 2px 2px 2px #fff;
-}
+
 footer  img {
 	height: 50px;
 	width: 50px;
 	padding: 5px;
+}
+footer p {
+	font-size: 20px;
 }
 .tiago img{
 	height: 50px;
@@ -111,6 +133,9 @@ footer  img {
 	}
 	.topo span {
 		font-size: 20px;
+	}
+	.habilidades ul {
+		font-size: 15px;
 	}
 
 }
