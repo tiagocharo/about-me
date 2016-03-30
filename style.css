@@ -16,27 +16,6 @@ body {
 	padding-top: 50px;
 	margin: 0px;
 	position: relative;
-	animation: pula 2s infinite;
-	-webkit-animation: pula 2s infinite;
-	-webkit-animation-direction: alternate;
-	animation-direction: alternate;
-	animation-time-function: ease-out;
-}
-@-webkit-keyframes pula {
-	from {
-		top: 0;
-	}
-	to {
-		top: 1em;
-	}
-}
-@keyframes pula {
-	from {
-		top: 0;
-	}
-	to {
-		top: 1em;
-	}
 }
 
 .topo span {
