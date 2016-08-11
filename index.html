@@ -5,34 +5,146 @@
 	<meta name="viewport" content="width=device-width , initial-scale=1"/>
 	<title>Tiago Rocha</title>
 	<link rel="stylesheet" href="style.css">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 	<link rel="stylesheet" href="animate.css">
+	<link rel="stylesheet" href="bootstrap-3.3.6-dist/css/bootstrap.css">
 
 </head>
-<body>
 
-	<div class="container centro">
-		<div class="row">
-			<div class="topo">	
-				<div class="col-lg-12 image-avatar">
-					<img src="images/perfil.jpg"  alt="perfil">
-				</div>
-
-				<div class="col-lg-12 pulo">
-					<h1>Tiago Rocha&nbsp;
-					<span> < </span>Front End Developer <span>/></span> </h1>
-				</div>
+<body>	
+	<div class="menu">
+		<div class="col-md-4 col-sm-5 col-xs-12 tiago">
+			<span><b> <a class="tiago" href="index.html"> < / TIAGO > </a></b></span>
+		</div> 
+		<div class="menu2 col-md-7 col-sm-7 col-xs-12">
+			<ul class="lista">
+				<li><a class="skills" href="#skills">Habilidades</a></li>
+				<li><a class="about" href="#about-me">Sobre mim</a></li>
+				<li><a class="contact" href="#contact">Contatos</a></li>
+				<li><a class="projects" href="#projects">Projetos</a></li>
+			</ul>
+		</div>
+		<div class="col-md-1 col-xs-12 flags">
+			<img class="flag-br" src="images/bandeira-br.jpg">
+			<img class="flag-en" src="images/bandeira-en.jpg">
+		</div>
+	</div>
+	<div class="row">
+		<div class="topo">
+			<div class="sobre col-lg-12 col-xs-12">
+			<h2 class="h2 front">Desenvolvedor Front end</h2>
 			</div>
 		</div>
-		<div class="menu">
-			<ul>
-				<li> <a href="sobre.html">SOBRE</a></li>
-				<li> <a href="habilidades.html">CONHECIMENTOS</a></li>
-				<li><a href="contato.html">CONTATO</a></li>
-			</ul>
+	</div>
+	<div class="row sobre">
+		<div class="col-md-12">
+			<div class="image-avatar">
+				<img class="img" src="images/perfil.jpg"  alt="perfil">
+			</div>
+			<p class="texto">Olá! Tenho 21 anos e moro no Rio de Janeiro, Brasil.<br>
+			Crio web sites com qualidade e acessível para dispositivos móveis. Sou fascinado por Desenvolvimento Web e estou sempre aprendendo novas tecnologias. No meu trabalho atual eu desenvolvo páginas responsivas usando um Framework próprio, gosto de aprimorar meus conhecimentos estudar sobre desenvolvimento Back end e  fazer novos projetos. Um dos projetos que participei foi a mudança da fonte e da marca da TIM. </p>
+		</div>
+	</div>
+	<div id="skills" class="col-md-6 col-md-offset-3">
+		<div class="list-group">
+		  <a href="#" style="text-align: center; background-color: #14151b;"class="list-group-item active"><b class="skills">HABILIDADES</b></a>
+		  <a href="" class="list-group-item">Html5</a>
+		  <a href="" class="list-group-item">Css3</a>
+		  <a href="" class="list-group-item">Sass</a>
+		  <a href="" class="list-group-item">Less</a>
+		  <a href="" class="list-group-item">Javascript</a>
+		  <a href="" class="list-group-item">jQuery</a>
+		  <a href="" class="list-group-item">Seo</a>
+		  <a href="" class="list-group-item">Design responsive</a>
+		  <a href="" class="list-group-item">Bootstrap</a>
+>>>>>>> master
 		</div>
 		<hr>
 	</div>
+<<<<<<< HEAD
+=======
+	<div class="row">
+		<div class="background col-md-12">
+		</div>
+	</div>
+	<div class="sobre col-md-12">
+		<h2 id="projects" class="h2" style="color: #404040; margin-top:100px;">Projetos</h2>
+		<div class="col-lg-6 col-xs-12">
+			<a href="http://www.tim.com.br">
+				<img style="width: 100%;" class="site" src="images/tim.jpg">
+			</a>
+		</div>
+		<div class="col-lg-6 col-xs-12">
+			<p class="description">Participei da alteração da marca em todo o site da TIM e atualmente meu trabalho é fazer a manutenção do código e criar novas páginas.</p>
+		</div>
+	</div>
+	<div class="footer col-md-12">
+		<h2 class="contact" style="margin-top: 100px; color: #404040;">Contatos</h2>
+		<div class="icones">
+			<a href="https://www.facebook.com/tiago.rocha.1804">
+				<img src="images/facebook.ico">
+			</a>
+
+			<a href="https://br.linkedin.com/in/tiago-rocha-1a108710b">
+				<img src="images/linkedin.ico">
+			</a>
+
+			<a href="https://twitter.com/tiagocharo">
+				<img src="images/twitter.ico">
+			</a>
+			<a href="https://github.com/tiagocharo">
+				<img src="images/git.ico">
+			</a>
+		</div>
+	</div>
+	<script src="js/jquery-2.2.0.min.js"></script>
+	<script>
+	$('.skills').click(function(){
+       $('html, body').animate({
+           scrollTop: 1050		
+       });
+   });	
+	$('.about').click(function(){
+       $('html, body').animate({
+           scrollTop: 550		
+       });
+   });		
+	$('.contact').click(function(){
+       $('html, body').animate({
+           scrollTop: 3000		
+       });
+   });	
+	$('.projects').click(function(){
+       $('html, body').animate({
+           scrollTop: 2000		
+       });
+   });
+
+	$(".flag-en").click(function(){
+		$(".skills").text("Skills");
+		$(".about").text("About me");
+		$(".contact").text("Contacts");
+		$(".projects").text("Projects");
+		$("#projects").text("Projects");
+		$(".front").text("Front end Developer");
+		$(".texto").text("Hello! I am 21 years old and live in Rio de Janeiro, Brazil.I create web sites with quality and affordable mobile. I am fascinated by Web Development and I am always learning new technologies. In my current work I develop responsive pages using a Framework itself, I like to improve my knowledge study on Back end development and make new projects. One of the projects I participated in was the change of supply and TIM brand.");
+		$(".description").text("I participated in the re-branding throughout the site TIM and now my job is to maintain the code and create new pages.");
+		
+	});
+
+	$(".flag-br").click(function(){
+		$(".skills").text("Habilidades");
+		$(".about").text("Sobre mim");
+		$(".contact").text("Contatos");
+		$(".projects").text("Projetos");
+		$("#projects").text("Projetos");
+		$(".front").text("Desenvolvedor Front end");
+		$(".texto").text("Olá! Tenho 21 anos e moro no Rio de Janeiro, Brasil.	Crio web sites com qualidade e acessível para dispositivos móveis. Sou fascinado por Desenvolvimento Web e estou sempre aprendendo novas tecnologias. No meu trabalho atual eu desenvolvo páginas responsivas usando um Framework próprio, gosto de aprimorar meus conhecimentos estudar sobre desenvolvimento Back end e  fazer novos projetos. Um dos projetos que participei foi a mudança da fonte e da marca da TIM. ");
+		$(".description").text("Participei da alteração da marca em todo o site da TIM e atualmente meu trabalho é fazer a manutenção do código e criar novas páginas.");
+		
+	});	
+
+	</script>
+>>>>>>> master
 	
 </body>
 </html>
