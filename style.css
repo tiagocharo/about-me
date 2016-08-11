@@ -1,9 +1,76 @@
 @charset "UTF-8";
 
-body {
-	background-image: url(images/codes.jpg);
-	background-size: cover;
-	background-position: center;
+* {
+margin:0;
+padding:0;
+list-style:none;
+vertical-align:baseline;
+}
+.container {
+	padding: 0 !important;
+	padding-right: 0 !important;
+	padding-left: 0 !important;
+	margin: 0 !important;
+}
+.row {
+	margin-left: 0 !important;
+}
+.menu {
+	height: 100px;
+	background-color: #14151b;
+	width: 100%;
+	position: fixed;
+	z-index: 10;
+}
+.flags {
+	float: right;
+	height: 100%;
+	line-height: 90px;
+}
+.flags img {
+	cursor: pointer;
+	margin: 5px;
+	height: 15px;
+}
+.menu .tiago {
+	margin-top: 20px;
+	text-align: center;
+}
+.menu .tiago:hover {
+	transform: rotateZ(10deg);
+}
+.menu .tiago a{
+	color: #999;
+	font-size: 40px;
+	text-decoration: none;
+}
+.lista {
+	text-align: center;
+}
+.lista li a {
+	text-decoration: none;
+	color: #999;
+	font-weight: 700;
+}
+
+.lista li {
+	display: inline-block;
+	padding: 10px;
+	margin: 20px 5px;
+	width: auto;
+	line-height: 25px;
+	height: 50px;
+	color: #fff;
+
+	transition: color 5s ease-in-out;
+	
+}
+.lista li:hover{
+	box-shadow: 0px 5px 0px  #000;
+	color: #fff;	
+}
+.lista li a:hover{
+	color: #fff;	
 }
 
 .topo h1{
@@ -17,35 +84,62 @@ body {
 	margin: 0px;
 	position: relative;
 }
-
-.topo span {
-	color: red;
-	font-size: 50px;
+.topo {
+	margin-top: 100px;
+	background-image: url(images/black_wallpaper_mountain_4k_best_hd.jpg);
+	background-attachment: fixed;
+	background-position: center center;
+	background-repeat: no-repeat;
+	height: 600px;
 }
-.topo img {
-	margin: 0px;
-	width: 150px;
+
+.image-avatar img:hover {	
+	transform: rotateX(180deg);
+	cursor: pointer;
+}
+.topo h2 {
+	color: #fff;
+}
+.sobre .image-avatar{
+	margin: 20px auto;
+	padding-bottom: 100px;
+	width: 200px;
 	height: 200px;
-	border-radius: 30px;
-	margin-top: 20px;
+}
+.image-avatar img {
+	border-radius: 50%;
+	box-shadow: 4px 4px 4px 3px #1a1a1a;
+}
+.background {
+	height: 300px;
+	margin-top: 50px;
+	background-attachment: fixed;
+	background-image: url(images/black-wallpaper-30.jpg);
 
 }
+
 .sobre {
-	margin-top: 10px;
+	margin-top: 20px;
+	margin-bottom: 50px;
 }
-.sobre h2 {
-	font-size: 45px;
+.sobre .h2 {
+	font-size: 55px;
 	font-family: sans-serif;
 	text-align: center;
-	color: #000;
-	color:red;
+	color: #fff;
+	text-shadow: 2px 2px  #000;
 	font-weight: 700;
+	margin-top: 150px;
+	margin-bottom: 50px;
+}
+.sobre .front h2 {
+	color: #01508C; !important;
 }
 
 .sobre p {
 	text-align: center;
 	margin-top: 10px;
-	color: #fff;
+    color: #666;
 	font-size: 20px;
 	font-weight: bold;
 }
@@ -58,44 +152,38 @@ body {
 	background-color: gray;
 	height: 250px;
 }
-.habilidades h2{
-	color: red;
+.list-group {
+	margin-top: 60px;
+	font-size: 20px;	
+}
+.sobre img {
+	width: 100%;
+}
+.projects p{
+	text-align: justify;
+}
+#projects h2 {
+	color: #000;
+}
+.footer h2{
+	font-size: 55px;
+	font-family: sans-serif;
 	text-align: center;
-	font-size: 40px;
+	color: #01508C;
+	text-shadow: 2px 2px  #000;
 	font-weight: 700;
+	margin-top: 150px;
+	margin-bottom: 50px;
 }
-
-.habilidades ul  {
-	list-style: none;
+.icones {
 	text-align: center;
-	color: #fff;
-	font-size: 35px;
-	font-family: helvetica;
-	font-weight: bold;
+	margin: 0;
 }
-.habilidades li:hover {
-	color: gray;
-}
-footer {
-	height: 200px;
-	margin-top: 20px;
-	text-align: center;
-	list-style-type: none;
-	color: #fff;
-}
-footer h3{
-	color: red;
-	font-weight: 700;
-	font-size: 30px;
-}
-
-footer  img {
-	height: 50px;
-	width: 50px;
-	padding: 5px;
-}
-footer p {
-	font-size: 20px;
+.icones img {
+	height: 60px;
+	width: 60px;
+	margin-top: 0;
+	margin-bottom: 100px;
 }
 .tiago img{
 	height: 50px;
@@ -105,17 +193,61 @@ footer p {
 }
 
 /*smartphone*/
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 770px) {
 	
 	.topo h1{
 		font-size: 20px;
 	}
-	.topo span {
-		font-size: 20px;
+	.sobre img {
+		width: 150px;
+		height: 150px;
 	}
-	.habilidades ul {
+	.tiago {
+		text-align: center;
+	}
+	.menu .tiago a {	
+		font-size: 30px;
+	}
+	.menu li {
+		font-size: 12px;
+		margin: 30px 0px 0px;
+		padding: 3px !important;
+	}
+	.menu li a {
+		padding-top: 15px;
+	}
+	.menu ul {
+		padding: 0;
+	}
+	.menu {
+		height: 160px;			
+		z-index: none;
+	}
+	.menu2 {
+		padding: 0;
+	}
+	.flags {
+		text-align: left;
+		margin-top: -17px;
+
+	}
+	.image-avatar {
+		text-align: center;
+	}
+	.sobre .h2 {
+		font-size: 30px;
+	}
+	.sobre p {
 		font-size: 15px;
 	}
+	.sobre .site img{
+		width: 100%;
+	}
+	.footer h2 {
+		font-size: 30px;
+		padding-top: 40px;
+	}
+
 
 }
 
