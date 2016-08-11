@@ -1,13 +1,5 @@
 @charset "UTF-8";
 
-<<<<<<< HEAD
-body {
-	background-repeat: no-repeat;
-	filter: -webkit-blur(5px);
-	background-size: cover;
-
-	background-position: center;
-=======
 * {
 margin:0;
 padding:0;
@@ -79,7 +71,6 @@ vertical-align:baseline;
 }
 .lista li a:hover{
 	color: #fff;	
->>>>>>> master
 }
 .centro {
 	text-align: center;
@@ -106,30 +97,7 @@ vertical-align:baseline;
 	height: 600px;
 }
 
-<<<<<<< HEAD
-.topo span {
-	color: #004279;
-	font-size: 50px;
-}
-.topo img {
-	width: 180px;
-	height: 200px;
-	border-radius: 100%;
-	margin-top: 20px ;
-	border: 3px solid #a9a9a9;
-}
-.menu ul {
-	text-align: center;
-	color: #004279;
-	font-size: 20px;
-	font-family: sans-serif;
-	font-weight: bold;
-	margin: 100px 0px 0px 0px;
-}
-.menu li a {
-	text-decoration: none;
-}
-=======
+
 .image-avatar img:hover {	
 	transform: rotateX(180deg);
 	cursor: pointer;
@@ -152,7 +120,7 @@ vertical-align:baseline;
 	margin-top: 50px;
 	background-attachment: fixed;
 	background-image: url(images/black-wallpaper-30.jpg);
->>>>>>> master
+
 
 .menu li:hover {
 	background-color: #004279;
@@ -178,18 +146,14 @@ vertical-align:baseline;
 	font-size: 55px;
 	font-family: sans-serif;
 	text-align: center;
-<<<<<<< HEAD
-	color: #004279;
-=======
 	color: #fff;
 	text-shadow: 2px 2px  #000;
->>>>>>> master
 	font-weight: 700;
 	margin-top: 150px;
 	margin-bottom: 50px;
 }
 .sobre .front h2 {
-	color: #01508C; !important;
+	color: #01508C !important;
 }
 .sobre h2 {
 	
@@ -197,11 +161,8 @@ vertical-align:baseline;
 .sobre p {
 	text-align: center;
 	margin-top: 10px;
-<<<<<<< HEAD
-	color: #a9a9a9;
-=======
     color: #666;
->>>>>>> master
+
 	font-size: 20px;
 	font-weight: bold;
 }
@@ -214,44 +175,18 @@ vertical-align:baseline;
 	background-color: gray;
 	height: 250px;
 }
-<<<<<<< HEAD
-.habilidades h2{
-	color: #004279;
-	text-align: center;
-	font-size: 40px;
-	font-weight: 700;
-}
-
-.habilidades ul  {
-	list-style: none;
-	text-align: center;
-	color: #a9a9a9;
-	font-size: 35px;
-	font-family: helvetica;
-	font-weight: bold;
-=======
 .list-group {
 	margin-top: 60px;
 	font-size: 20px;	
 }
 .sobre img {
 	width: 100%;
->>>>>>> master
+
 }
 .projects p{
 	text-align: justify;
 }
-<<<<<<< HEAD
-footer {
-	height: 200px;
-	margin-top: 20px;
-	text-align: center;
-	list-style-type: none;
-	color: #a9a9a9;
-}
-footer h3{
-	color: #004279;
-=======
+
 #projects h2 {
 	color: #000;
 }
@@ -261,22 +196,16 @@ footer h3{
 	text-align: center;
 	color: #01508C;
 	text-shadow: 2px 2px  #000;
->>>>>>> master
+
 	font-weight: 700;
 	margin-top: 150px;
 	margin-bottom: 50px;
 }
-<<<<<<< HEAD
 
-footer  img {
-	height: 100px;
-	width: 100px;
-	padding: 5px;
-=======
 .icones {
 	text-align: center;
 	margin: 0;
->>>>>>> master
+
 }
 .icones img {
 	height: 60px;
