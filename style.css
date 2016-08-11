@@ -51,6 +51,29 @@ vertical-align:baseline;
 	text-decoration: none;
 	color: #999;
 	font-weight: 700;
+
+
+}
+
+.lista li {
+	display: inline-block;
+	padding: 10px;
+	margin: 20px 5px;
+	width: auto;
+	line-height: 25px;
+	height: 50px;
+	color: #fff;
+
+	transition: color 5s ease-in-out;
+	
+}
+.lista li:hover{
+	box-shadow: 0px 5px 0px  #000;
+	color: #fff;	
+}
+.lista li a:hover{
+	color: #fff;	
+
 }
 
 .lista li {
@@ -72,14 +95,18 @@ vertical-align:baseline;
 .lista li a:hover{
 	color: #fff;	
 }
-
+.centro {
+	text-align: center;
+}
+.pulo h1 {
+	text-align: center;
+}
 .topo h1{
-	color: #fff;
+	color: #a9a9a9;
 	text-align: center;
 	font-size: 40px;
 	font-family: sans-serif;
 	font-weight: bold;
-	float: left;
 	padding-top: 50px;
 	margin: 0px;
 	position: relative;
@@ -92,6 +119,10 @@ vertical-align:baseline;
 	background-repeat: no-repeat;
 	height: 600px;
 }
+
+
+
+
 
 .image-avatar img:hover {	
 	transform: rotateX(180deg);
@@ -116,7 +147,28 @@ vertical-align:baseline;
 	background-attachment: fixed;
 	background-image: url(images/black-wallpaper-30.jpg);
 
+
+
+
+
+.menu li:hover {
+	background-color: #004279;
+	transition: 1s;
 }
+
+.menu li a:hover {
+	color: #fff;
+}
+
+
+.menu li {
+	display: inline-block;
+	border: 4px solid #004279;
+	border-radius: 2px;
+	padding: 15px;
+}
+
+
 
 .sobre {
 	margin-top: 20px;
@@ -133,13 +185,23 @@ vertical-align:baseline;
 	margin-bottom: 50px;
 }
 .sobre .front h2 {
-	color: #01508C; !important;
-}
 
+	color: #01508C !important;
+}
+.sobre h2 {
+	
+
+	color: #01508C; !important;
+
+}
 .sobre p {
 	text-align: center;
 	margin-top: 10px;
     color: #666;
+
+
+
+
 	font-size: 20px;
 	font-weight: bold;
 }
@@ -158,10 +220,18 @@ vertical-align:baseline;
 }
 .sobre img {
 	width: 100%;
+
+
+
+
 }
 .projects p{
 	text-align: justify;
 }
+
+
+
+
 #projects h2 {
 	color: #000;
 }
@@ -171,13 +241,25 @@ vertical-align:baseline;
 	text-align: center;
 	color: #01508C;
 	text-shadow: 2px 2px  #000;
+
+
+
+
 	font-weight: 700;
 	margin-top: 150px;
 	margin-bottom: 50px;
 }
+
+
 .icones {
 	text-align: center;
 	margin: 0;
+
+
+.icones {
+	text-align: center;
+	margin: 0;
+
 }
 .icones img {
 	height: 60px;
@@ -222,6 +304,7 @@ vertical-align:baseline;
 	.menu {
 		height: 160px;			
 		z-index: none;
+
 	}
 	.menu2 {
 		padding: 0;
@@ -237,6 +320,23 @@ vertical-align:baseline;
 	.sobre .h2 {
 		font-size: 30px;
 	}
+
+	}
+	.menu2 {
+		padding: 0;
+	}
+	.flags {
+		text-align: left;
+		margin-top: -17px;
+
+	}
+	.image-avatar {
+		text-align: center;
+	}
+	.sobre .h2 {
+		font-size: 30px;
+	}
+
 	.sobre p {
 		font-size: 15px;
 	}
@@ -247,6 +347,29 @@ vertical-align:baseline;
 		font-size: 30px;
 		padding-top: 40px;
 	}
+
+
+
+}
+@media only screen and (max-width: 520px) {
+	.menu li {
+		margin-top: 20px;
+	}
+	.menu li {
+		height: 50px;
+		width: 150px;
+		font-size: 13px;
+		display: block;
+		margin: 10px auto;
+	}
+	.habilidades h2 {
+		font-size: 20px;
+	}
+	footer img {
+		height: 50px;
+		width: 50px;
+	}
+
 
 
 }
