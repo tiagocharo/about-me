@@ -51,6 +51,7 @@ vertical-align:baseline;
 	text-decoration: none;
 	color: #999;
 	font-weight: 700;
+	transition: .5s;
 }
 
 .lista li {
@@ -61,8 +62,7 @@ vertical-align:baseline;
 	line-height: 25px;
 	height: 50px;
 	color: #fff;
-
-	transition: color 5s ease-in-out;
+	transition: .5s;
 	
 }
 .lista li:hover{
@@ -142,11 +142,16 @@ vertical-align:baseline;
     color: #666;
 	font-size: 20px;
 	font-weight: bold;
+	width: 80%;
+	margin: 0 auto;
 }
 .icones img {
 	height: 70px;
 	width: 70px;
 	margin-top: 100px;
+}
+.sobre .description {
+	margin-bottom: 20px auto;
 }
 .branco {
 	background-color: gray;
