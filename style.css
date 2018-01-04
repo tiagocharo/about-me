@@ -36,9 +36,7 @@ vertical-align:baseline;
 	margin-top: 20px;
 	text-align: center;
 }
-.menu .tiago:hover {
-	transform: rotateZ(10deg);
-}
+
 .menu .tiago a{
 	color: #999;
 	font-size: 40px;
