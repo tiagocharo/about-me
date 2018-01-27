@@ -5,26 +5,21 @@
 	<meta name="viewport" content="width=device-width , initial-scale=1"/>
 	<title>Tiago Rocha</title>
 	<link rel="stylesheet" href="style.css">
-	<link rel="stylesheet" href="animate.css">
 	<link rel="stylesheet" href="bootstrap-3.3.6-dist/css/bootstrap.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 
 </head>
 <body>
 	<div class="menu">
-		<div class="col-md-4 col-sm-5 col-xs-12 tiago">
-			<span><b><a class="tiago" href="index.html"> < / TIAGO > </a></b></span>
+		<div class="col-md-6 col-sm-12 col-xs-12 tiago">
+			<h1><a class="tiago" href="index.html"> < / TIAGO > </a></h1>
 		</div> 
-		<div class="menu2 col-md-7 col-sm-7 col-xs-12">
+		<div class="menu2 col-md-6 col-sm-12 col-xs-12">
 			<ul class="lista">
-				<li><a class="skills" href="#skills">Habilidades</a></li>
-				<li><a class="about" href="#about-me">Sobre mim</a></li>
-				<li><a class="contact" href="#contact">Contatos</a></li>
-				<!-- <li><a class="projects" href="#projects">Projetos</a></li> -->
+				<li><a class="skills" href="#skills">Skills</a></li>
+				<li><a class="about" href="#about">About me</a></li>
+				<li><a class="contact" href="#contact">Contacts</a></li>
 			</ul>
-		</div>
-		<div class="col-md-1 col-xs-12 flags">
-			<img class="flag-br" src="images/bandeira-br.jpg">
-			<img class="flag-en" src="images/bandeira-en.jpg">
 		</div>
 	</div>
 	<div class="row">
@@ -34,22 +29,18 @@
 			</div>
 		</div>
 	</div>
-	<div class="row sobre">
+	<div id="about" class="row sobre">
 		<div class="col-md-12">
 			<div class="image-avatar">
 				<img class="img" src="images/perfil.jpg"  alt="perfil">
 			</div>
-			<p class="texto">Olá! Tenho 22 anos e moro no Rio de Janeiro, Brasil.<br>
-				Atualmente trabalho em uma empresa que dá suporte ao Globosatplay, trabalho
-				diretamente na manutenção e adaptação do aplicativo Globosatplay para TVs.
-				Gosto de estar sempre estudando e me atualizando sobre tudo o que há ao meu
-				redor e até um pouco mais. Busco novas experiências nesta área e estou pronto
-				para aprender e assimilar quaisquer novos conhecimentos. </p>
+			<p class="texto">Hello! I am 22 years old and live in Rio de Janeiro, Brazil.<br>
+			Currently I work in a company that supports Globosatplay, direct work in maintenance and adaptation of Globosatplay application for TVs. I like to always be studying and updating myself on everything that does around me and even a little more. Seek new experiences in the area and soon to learn and assimilate the new knowledge.</p>
 		</div>
 	</div>
 	<div id="skills" class="col-md-6 col-md-offset-3">
 		<div class="list-group">
-		  <a href="#" style="text-align: center; background-color: #14151b;"class="list-group-item active"><b class="skills">HABILIDADES</b></a>
+		  <a href="#" style="text-align: center; background-color: #14151b;"class="list-group-item active"><b class="skills">Skills</b></a>
 		  <a href="" class="list-group-item">Html5</a>
 		  <a href="" class="list-group-item">Seo</a>
 		  <a href="" class="list-group-item">Css3</a>
@@ -66,83 +57,42 @@
 		  <a href="" class="list-group-item">Grunt</a>
 		</div>
 	</div>
-	<!-- <div class="sobre col-md-12">
-		<h2 id="projects" class="h2" style="color: #404040; margin-top:100px;">Projetos</h2>
-		<div class="col-lg-6 col-xs-12">
-			<a href="http://www.tim.com.br">
-				<img style="width: 100%;" class="site" src="images/tim.jpg">
-			</a>
-		</div>
-		<div class="col-lg-6 col-xs-12">
-			<p class="description">Participei da alteração da marca em todo o site da TIM e atualmente meu trabalho é fazer a manutenção do código e criar novas páginas.</p>
-		</div>
-	</div> -->
 	<div class="footer col-md-12">
-		<h2 class="contact" style="margin-top: 100px; color: #404040;">Contatos</h2>
+		<h2 id="contact" class="contact" style="margin-top: 100px; color: #404040;">Contacts</h2>
 		<div class="icones">
 			<a href="https://www.facebook.com/tiago.rocha.1804">
-				<img src="images/facebook.ico">
+				<img src="images/facebook.svg">
 			</a>
 
 			<a href="https://br.linkedin.com/in/tiago-rocha-1a108710b">
-				<img src="images/linkedin.ico">
+				<img src="images/linkedin.svg">
 			</a>
 
 			<a href="https://twitter.com/tiagocharo">
-				<img src="images/twitter.ico">
+				<img src="images/twitter.svg">
 			</a>
 			<a href="https://github.com/tiagocharo">
-				<img src="images/git.ico">
+				<img src="images/github.svg">
+			</a>
+			<a href="https://medium.com/@tiagofarocha95">
+				<img src="images/medium.svg">
 			</a>
 		</div>
 	</div>
 	<script src="js/jquery-3.1.1.min.js"></script>
 	<script>
-	$('.skills').click(function(){
-       $('html, body').animate({
-           scrollTop: 1050		
-       });
-   });	
-	$('.about').click(function(){
-       $('html, body').animate({
-           scrollTop: 550		
-       });
-   });		
-	$('.contact').click(function(){
-       $('html, body').animate({
-           scrollTop: 3000		
-       });
-   });	
-	$('.projects').click(function(){
-       $('html, body').animate({
-           scrollTop: 2000		
-       });
-   });
 
-	$(".flag-en").click(function(){
-		$(".skills").text("Skills");
-		$(".about").text("About me");
-		$(".contact").text("Contacts");
-		$(".projects").text("Projects");
-		$("#projects").text("Projects");
-		$(".front").text("Front end Developer");
-		$(".texto").text("Hello! I am 22 years old and live in Rio de Janeiro, Brazil.Currently working for a company that supports Globosatplay, I work directly on the maintenance and adaptation of the Globosatplay application for TVs. I like to be always studying and updating myself on everything that is around and even a little more. I'm looking for new experiences in this area and I'm ready to learn and assimilate any new knowledge.");
-		$(".description").text("I participated in the re-branding throughout the site TIM and now my job is to maintain the code and create new pages.");
-		
-	});
-
-	$(".flag-br").click(function(){
-		$(".skills").text("Habilidades");
-		$(".about").text("Sobre mim");
-		$(".contact").text("Contatos");
-		$(".projects").text("Projetos");
-		$("#projects").text("Projetos");
-		$(".front").text("Desenvolvedor Front end");
-		$(".texto").text("Olá! Tenho 22 anos e moro no Rio de Janeiro, Brasil.<br> Atualmente trabalho em uma empresa que dá suporte ao Globosatplay, trabalho diretamente na manutenção e adaptação do aplicativo Globosatplay para TVs. Gosto de estar sempre estudando e me atualizando sobre tudo o que há ao meu redor e até um pouco mais. Busco novas experiências nesta área e estou pronto para aprender e assimilar quaisquer novos conhecimentos. ");
-		$(".description").text("Participei da alteração da marca em todo o site da TIM e atualmente meu trabalho é fazer a manutenção do código e criar novas páginas.");
-		
-	});	
-
+	$('.lista li a').on('click', function() {
+		var self = $(this);
+		var href = self.attr('href');
+		scroll(event, href);
+	})
+	function scroll(event, id) {
+		event.preventDefault();
+		$('html, body').animate({
+			scrollTop: $(id).offset().top - 100
+		}, 1000);
+	}
 	</script>
 	
 </body>
