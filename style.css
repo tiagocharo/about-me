@@ -60,7 +60,8 @@ font-family: 'Montserrat', sans-serif;
 	
 }
 .lista li:hover{
-	color: #fff;	
+	color: #fff;
+	transform: scale(1.1);	
 }
 .lista li a:hover{
 	color: #fff;	
@@ -75,14 +76,14 @@ font-family: 'Montserrat', sans-serif;
 }
 
 .image-avatar img:hover {	
-	transform: rotateX(180deg);
+	transform: scale(1.1);
 	cursor: pointer;
 }
 .topo h2 {
 	color: #fff;
 }
 .sobre .image-avatar{
-	margin: 20px auto;
+	margin: 1em auto;
 	margin-bottom: 50px;
 	width: 200px;
 	height: 200px;
@@ -90,6 +91,7 @@ font-family: 'Montserrat', sans-serif;
 .image-avatar img {
 	border-radius: 50%;
 	box-shadow: 4px 4px 4px 3px #1a1a1a;
+	transition: 1s;
 }
 .background {
 	height: 300px;
@@ -118,11 +120,18 @@ font-family: 'Montserrat', sans-serif;
 
 .sobre p {
 	text-align: center;
-	margin: 10px auto;
+	margin: 1em auto;
     color: #666;
 	font-size: 20px;
-	font-weight: bold;
 	width: 70%;
+}
+.skills h2 {
+	text-align: center;
+	font-weight: 700;
+	font-size: 4em;
+}
+.skills ul li {
+	margin: 5% auto;
 }
 .icones a {
 	font-size: 0;
@@ -130,7 +139,7 @@ font-family: 'Montserrat', sans-serif;
 .icones img {
 	height: 30px;
 	width: 30px;
-	margin: 60px 10px;
+	margin: 1%;
 
 }
 .sobre .description {
@@ -142,7 +151,7 @@ font-family: 'Montserrat', sans-serif;
 }
 .list-group {
 	margin-top: 60px;
-	font-size: 20px;	
+	font-size: 20px;
 }
 .sobre img {
 	width: 100%;
@@ -154,10 +163,9 @@ font-family: 'Montserrat', sans-serif;
 	color: #000;
 }
 .footer h2{
-	font-size: 55px;
+	font-size: 4em;
 	text-align: center;
 	color: #01508C;
-	text-shadow: 2px 2px  #000;
 	font-weight: 700;
 	margin-top: 150px;
 	margin-bottom: 50px;
