@@ -128,7 +128,6 @@ font-family: 'Montserrat', sans-serif;
 .skills h2 {
 	text-align: center;
 	font-weight: 700;
-	font-size: 4em;
 }
 .skills ul li {
 	margin: 5% auto;
@@ -175,7 +174,8 @@ font-family: 'Montserrat', sans-serif;
 }
 .icones {
 	text-align: center;
-	margin: 0;
+	margin-bottom: 50px;
+
 }
 .tiago img{
 	height: 50px;
@@ -184,10 +184,34 @@ font-family: 'Montserrat', sans-serif;
 	text-indent: 30px;
 }
 
+.form {
+	width: 50%;
+    margin: 0 auto;
+}
+
 form {
+	display: block;
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.10);
+	padding: 20px;
+	margin-bottom: 50px;
+}
+.large {
+	background: #f1eded;
+	border: none;
+	width: 200px;
+}
+.block {
 	display: flex;
-    align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
+	width: 80%;
+	margin-bottom: 20px;
+}
+.block #submit {
+	background: #3379b7;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
 }
 
 /*smartphone*/
@@ -252,6 +276,16 @@ form {
 	.footer h2 {
 		font-size: 30px;
 		padding-top: 40px;
+	}
+	.form {
+		width: 95%;
+		margin: 0 auto;
+	}
+	.block {
+		width: 95%;
+	}
+	.large {
+		max-width: 150px;
 	}
 
 }
