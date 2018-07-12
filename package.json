@@ -2,6 +2,7 @@
   "name": "graphql",
   "version": "0.1.0",
   "private": true,
+  "homepage" : "http://tiagocharo.github.io/tiago",
   "dependencies": {
     "apollo-cache-inmemory": "^1.2.5",
     "apollo-client": "^2.3.5",
