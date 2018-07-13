@@ -12,8 +12,8 @@ export default class Routes extends Component {
 			<ApolloProvider client={apolloClient}>
 				<Router>
 					<div>
-						<Route exact path="/" component={App} />
-						<Route exact={true} path="/contato" component={Contact} />
+						<Route exact path={`${process.env.PUBLIC_URL}/`} component={App} />
+						<Route exact={true} path={`${process.env.PUBLIC_URL}/contato`} component={Contact} />
 					</div>
 				</Router>
 			</ApolloProvider>
