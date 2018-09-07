@@ -107,7 +107,7 @@ class About extends Component {
           </div>
           <footer>
             <h2>CONTACT</h2>
-            <div className="form">
+            <form className="form" netlify>
                 <div className="block">
                   <input 
                     placeholder="Email"
@@ -134,7 +134,7 @@ class About extends Component {
                   onClick={this.addMessage} />
                 </div>
                 <div className="sucsses">{ sent ? <p>Sent with success!</p> : null }</div>
-            </div>
+            </form>
           </footer>
         </div>
       );
