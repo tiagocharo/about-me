@@ -68,14 +68,14 @@ class About extends Component {
 
     if(tiago.loading) {
       return (
-        <div className="loading"><img src={loading}/></div>
+        <div className="loading"><img alt="icon" src={loading}/></div>
       )
     } else {
       return (
         <div className="app">
           <div className="main">
             <header>
-                <img src={Tiago} />
+                <img alt="profile" src={Tiago} />
                 <h1 className="title">{myName}</h1>
             </header>
             <div className="description">
@@ -87,21 +87,21 @@ class About extends Component {
             </div>
             <div className="icons">
               <a target="_blank" href="https://br.linkedin.com/in/tiago-rocha-1a108710b">
-                <img src={linkedin}/>
+                <img alt="icon" src={linkedin}/>
               </a>
 
               <a target="_blank" href="https://github.com/tiagocharo">
-                <img src={github}/>
+                <img alt="icon" src={github}/>
               </a>
 
               <a target="_blank" href="https://medium.com/@tiagofarocha95">
-                <img src={medium}/>
+                <img alt="icon" src={medium}/>
               </a>
               <a target="_blank" href="https://www.facebook.com/tiago.rocha.1804">
-                <img src={facebook}/>
+                <img alt="icon" src={facebook}/>
               </a>
               <a target="_blank" href="https://twitter.com/tiagocharo">
-                <img src={twitter}/>
+                <img alt="icon" src={twitter}/>
               </a>
 		        </div>
           </div>
