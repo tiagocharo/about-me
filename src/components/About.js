@@ -114,27 +114,24 @@ class About extends Component {
                     className="large" 
                     type="email" 
                     id="email" 
-                    // value={emailFromUser}
-                    // onChange={e => this.setState({ emailFromUser: e.target.value })}
-                  />
+                    value={emailFromUser}
+                    onChange={e => this.setState({ emailFromUser: e.target.value })}/>
                 </div>
                 <div className="block">
                   <textarea 
                     placeholder="Message"
-                    // value={messageFromUser} 
+                    value={messageFromUser} 
                     className="large" 
                     type="text" 
                     id="msg" 
-                    // onChange={e => this.setState({ messageFromUser: e.target.value })}
-                  >
-                  </textarea>
+                    onChange={e => this.setState({ messageFromUser: e.target.value })}></textarea>
                 </div>
                 <div className="block">
                   <input 
-                    id="submit" 
-                    type="submit" 
-                    value="SUBMIT" 
-                    // onClick={this.addMessage} 
+                  id="submit" 
+                  type="submit" 
+                  value="SUBMIT" 
+                  onClick={this.addMessage} 
                   />
                 </div>
                 <div className="sucsses">{ sent ? <p>Sent with success!</p> : null }</div>
