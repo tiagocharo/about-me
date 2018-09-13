@@ -128,10 +128,11 @@ class About extends Component {
                 </div>
                 <div className="block">
                   <input 
-                  id="submit" 
-                  type="submit" 
-                  value="SUBMIT" 
-                  onClick={this.addMessage} />
+                    id="submit" 
+                    type="submit" 
+                    value="SUBMIT" 
+                    // onClick={this.addMessage} 
+                  />
                 </div>
                 <div className="sucsses">{ sent ? <p>Sent with success!</p> : null }</div>
             </form>
