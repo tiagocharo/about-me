@@ -115,7 +115,8 @@ class About extends Component {
                     type="email" 
                     id="email" 
                     value={emailFromUser}
-                    onChange={e => this.setState({ emailFromUser: e.target.value })}/>
+                    // onChange={e => this.setState({ emailFromUser: e.target.value })}
+                  />
                 </div>
                 <div className="block">
                   <textarea 
@@ -124,7 +125,9 @@ class About extends Component {
                     className="large" 
                     type="text" 
                     id="msg" 
-                    onChange={e => this.setState({ messageFromUser: e.target.value })}></textarea>
+                    // onChange={e => this.setState({ messageFromUser: e.target.value })}
+                  >
+                  </textarea>
                 </div>
                 <div className="block">
                   <input 
