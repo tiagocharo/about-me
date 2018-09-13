@@ -107,7 +107,7 @@ class About extends Component {
           </div>
           <footer>
             <h2>CONTACT</h2>
-            <form className="form" name="contact" netlify>
+            <form className="form" method="post" name="contact" netlify>
                 <div className="block">
                   <input 
                     placeholder="Email"
