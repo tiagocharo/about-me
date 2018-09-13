@@ -114,14 +114,14 @@ class About extends Component {
                     className="large" 
                     type="email" 
                     id="email" 
-                    value={emailFromUser}
+                    // value={emailFromUser}
                     // onChange={e => this.setState({ emailFromUser: e.target.value })}
                   />
                 </div>
                 <div className="block">
                   <textarea 
                     placeholder="Message"
-                    value={messageFromUser} 
+                    // value={messageFromUser} 
                     className="large" 
                     type="text" 
                     id="msg" 
